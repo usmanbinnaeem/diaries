@@ -40,7 +40,7 @@ export const setupServer = (): Server => {
     },
 
     routes(): void {
-      this.urlPrefix = 'https://diaries.app';
+      this.urlPrefix = 'https://diariesapp-with-reduxtoolkit.netlify.app';
 
       this.get('/diaries/entries/:id', diary.getEntries);
       this.get('/diaries/:id', diary.getDiaries);
